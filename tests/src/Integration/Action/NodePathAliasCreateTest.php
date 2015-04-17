@@ -42,15 +42,6 @@ class NodePathAliasCreateTest extends RulesEntityIntegrationTestBase {
   }
 
   /**
-   * Tests the summary.
-   *
-   * @covers ::summary
-   */
-  public function testSummary() {
-    $this->assertEquals('Create node path alias', $this->action->summary());
-  }
-
-  /**
    * Tests the action execution with an unsaved node.
    *
    * @covers ::execute
